@@ -331,18 +331,14 @@ body {
     padding: 40px 0px;
 
 }
-
 .footer-item {
     position: relative;
     overflow: hidden;
-    /* padding: 40px 0px; */
     text-align: center;
 }
 .footer-form {
     position: relative;
-    
     overflow: hidden;
-    /* padding: 40px 0px; */
 }
 #footer img {
     width: 267px;
@@ -381,7 +377,6 @@ body {
     font-size: 30px;
     font-weight: 480px;
 }
-
 .form-container {
     display: flex;
     flex-direction: column;
@@ -395,6 +390,8 @@ body {
     background-color: rgba(50, 50, 50);
     border: none;
     font-size: 17px;
+    color: #fff;
+
 }
 .form-mesage {
     font-family: 'Roboto' ;

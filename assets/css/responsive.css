@@ -20,7 +20,11 @@
         font-size: 15px;
     }
 }
-
+@media (max-width: 1113px){
+    .footer-form {
+        text-align: center;
+    }
+}
 /* Tablet and Mobile */
 @media (max-width: 1023px) {
     #header {
@@ -61,6 +65,30 @@
     #nav li:hover {
         background-color: #ccc;
     }
+
+    #about {
+        display: block;
+    }
+    
+    .about-img {
+        text-align: center;
+    }
+    .img-restaurant-rotate {
+        display: none;
+    }
+    .about-content {
+        margin-left: 12px;
+    }
+    
+    .footer-item h2 {
+        padding-bottom: 0;
+    }
+    #footer .socials-list {
+        margin-top: 24px;
+    }
+    .footer-item {
+        margin-bottom: 30px;
+    }
 }
 /* Tablet */
 @media (min-width: 740px) and (max-width: 1023px){
@@ -89,11 +117,23 @@
     .menu-mobile-active {
         width: 100%;
     }
-
-    #about {
-        display: block;
-    }
     #about-content > img {
         display: none; 
     }
+    #special {
+        display: block;
+        text-align: center;
+    }
+    .special-img {
+        position: relative;
+    }
+    .special-img img {
+        margin: auto;
+        width: 100%;
+        height: auto;
+    }
+    .special-content {
+        margin: auto;
+    }
+
 }
