@@ -338,11 +338,12 @@
       var header = document.getElementById("header");
       var mobileMenu = document.getElementById("mobile-menu");
       var menuActive = document.querySelector(".menu-mobile-active");
+      var navItems = document.querySelectorAll("#nav ul li");
+
       // Đóng/mở mobile menu
 
       var isClosed = true;
       mobileMenu.onclick = function () {
-        console.log(menuActive);
         if (isClosed) {
           menuActive.classList.remove("active");
           isClosed = false;
@@ -351,6 +352,16 @@
           isClosed = true;
         }
       };
+
+      // Đóng menu khi click vào
+
+      navItems.forEach((navItem, index) => {
+        navItem.onclick = function () {
+          menuActive.classList.add("active");
+          isClosed = true;
+        }
+      });
+      
     </script>
   </body>
 </html>

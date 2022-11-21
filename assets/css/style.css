@@ -147,12 +147,12 @@ body {
     line-height: 92px;
     font-size: 14px;
     padding: 10px 20px;
+    border-radius: 5px;
     
 }
 
 .nav-booking {
     border: 2px solid rgb(22, 22, 207);
-    border-radius: 5px;
 }
 
 #slide {
@@ -191,6 +191,7 @@ body {
     width: 50%;
     margin-top: 20px;
 }
+
 #slide .button {
     display: block;
     margin: 20px auto 0 auto;
@@ -211,15 +212,12 @@ body {
     display: flex;
     position: relative;
 }
-
 #about-content > img {
     width: 250px;
     position: absolute;
     right: 0;
     bottom: 0;
 }
-
-
 .about-img {
     position: relative;
 }
